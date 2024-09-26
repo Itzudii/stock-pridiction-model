@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction</title>
+    <link rel="stylesheet" href="/static/CSS/pridic-style.css">
+    <script src="/static/JS/script.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <h3>Stock</h3>
+    </header>
+    <main>
+        <div class="info">
+            <div>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Stock Name</td>
+                            <td>{{stock_name}}</td>
+                        </tr>
+                        <tr>
+                            <td>Start Date</td>
+                            <td>{{start_date}}</td>
+                        </tr>
+                        <tr>
+                            <td>End Date</td>
+                            <td>{{end_date}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="graph">
+            <div class="image">
+                <label for="">Close Graph</label>
+                <img src="/static/GRAPH_IMG/close_graph.png" alt="">
+            </div>
+            <div class="image">
+                <label for="">MA100 Graph</label>
+                <img src="/static/GRAPH_IMG/ma100_graph.png" alt="">
+            </div>
+            <div class="image">
+                <label for="">MA200 Graph</label>
+                <img src="/static/GRAPH_IMG/ma200_graph.png" alt="">
+            </div>
+            <!-- <div class="image">
+                <label for="">Prediction Graph</label>
+                <img src="/static/GRAPH_IMG/prediction_graph.png" alt="">
+            </div> -->
+            <div class="image">
+                <label for="">Prediction Orignal Graph</label>
+                <img src="/static/GRAPH_IMG/prediction_orignal_graph.png" alt="">
+            </div>
+
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

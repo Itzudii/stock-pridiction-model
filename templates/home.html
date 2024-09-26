@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/static/CSS/home-style.css">
+    <script src="/static/JS/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h3>Stock</h3>
+    </header>
+    <main>
+        <div class="form-div">
+            <form action="/process_form" method="post" id="form">
+                <label><i class="fa fa-money" style="font-size: 18px;margin-right: 10px;"></i>Stock Prediction</label>
+                <input type="text" name="stock" id="stock" placeholder="stock name" required>
+                <input type="text" name="start" id="start" placeholder="start date YYYY-MM-DD" required>
+                <input type="text" name="end" id="end" placeholder="end date YYYY-MM-DD" required>
+                <button type="submit">predic</button>
+            </form>
+
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
